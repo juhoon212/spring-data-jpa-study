@@ -10,7 +10,7 @@ import java.util.Optional;
 public interface CommentRepository extends JpaRepository<Comment, Long> {
 
 //    @Query(value = "Select c from Comment c", nativeQuery = true)
-    List<Comment> findByTitleContains(String keyword);
+//    List<Comment> findByTitleContains(String keyword);
 
 
     Comment save(Comment comment);
